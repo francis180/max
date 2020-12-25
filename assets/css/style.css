@@ -10,6 +10,7 @@ p{font-family: 'Roboto', sans-serif;}
   overflow: hidden;
 }
 
+
 header video {
   position: absolute;     
   z-index: 0;
@@ -33,6 +34,11 @@ body{
   cursor: none;
 }
 
+@media (min-width: 992px){
+.modal-lg {
+  max-width:80% !important;
+}
+}
 
 header .content {
   position: relative;
@@ -162,22 +168,7 @@ header .overlay {
   cursor: none;
    
 }
-.mouse-glow{
-  transform:scale(10);  
-  cursor: none;
-  color: white;
-  z-index:5001;  
-  font-size:3px;
-  line-height: 1rem;
-  text-align: center;
 
-}
- 
-.link-glow{
-  transform:scale(5);   
-  color:white;   
-  cursor: none;
-} 
  
 button:hover{
   cursor:none !important;
